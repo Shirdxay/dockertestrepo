@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hi, CI/CD with Docker and Render!");
+  res.send("Gday, CI/CD with Docker and Render!");
 });
 
 const PORT = process.env.PORT || 3000;
